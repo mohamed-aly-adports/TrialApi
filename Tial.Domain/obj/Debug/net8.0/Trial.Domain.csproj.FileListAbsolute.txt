@@ -1,0 +1,15 @@
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\bin\Debug\net8.0\Trial.Domain.deps.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\bin\Debug\net8.0\Trial.Domain.runtimeconfig.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\bin\Debug\net8.0\Trial.Domain.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\bin\Debug\net8.0\Trial.Domain.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.csproj.AssemblyReference.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.AssemblyInfoInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.AssemblyInfo.cs
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.sourcelink.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\refint\Trial.Domain.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\Trial.Domain.genruntimeconfig.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Tial.Domain\obj\Debug\net8.0\ref\Trial.Domain.dll

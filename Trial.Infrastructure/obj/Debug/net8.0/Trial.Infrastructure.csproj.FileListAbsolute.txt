@@ -1,0 +1,12 @@
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\bin\Debug\net8.0\Trial.Infrastructure.deps.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\bin\Debug\net8.0\Trial.Infrastructure.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\bin\Debug\net8.0\Trial.Infrastructure.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.AssemblyInfo.cs
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.sourcelink.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\refint\Trial.Infrastructure.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\Trial.Infrastructure.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Infrastructure\obj\Debug\net8.0\ref\Trial.Infrastructure.dll

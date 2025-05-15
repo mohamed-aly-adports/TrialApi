@@ -1,0 +1,12 @@
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\bin\Debug\net8.0\Trial.Application.deps.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\bin\Debug\net8.0\Trial.Application.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\bin\Debug\net8.0\Trial.Application.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.AssemblyInfoInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.AssemblyInfo.cs
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.csproj.CoreCompileInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.sourcelink.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\refint\Trial.Application.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\Trial.Application.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\API\TrialApi\Trial.Application\obj\Debug\net8.0\ref\Trial.Application.dll

@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24F07A39-DBD2-4E5E-BC21-F05733D8E793}|Trial.Application\\Trial.Application.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trial.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F07A39-DBD2-4E5E-BC21-F05733D8E793}|Trial.Application\\Trial.Application.csproj|solutionrelative:trial.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trial.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|solutionrelative:trial.infrastructure\\persistence\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1375,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Trial.Infrastructure\\Persistence\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Persistence\\UserRepository.cs",
+              "RelativeToolTip": "Trial.Infrastructure\\Persistence\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:36:30.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Trial.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Trial.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA4wA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:57:42.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

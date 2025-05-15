@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24F07A39-DBD2-4E5E-BC21-F05733D8E793}|Trial.Application\\Trial.Application.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trial.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F07A39-DBD2-4E5E-BC21-F05733D8E793}|Trial.Application\\Trial.Application.csproj|solutionrelative:trial.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trialapi\\middlewares\\jwevalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|solutionrelative:trialapi\\middlewares\\jwevalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trialapi\\middlewares\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|solutionrelative:trialapi\\middlewares\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trialapi\\trialapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|solutionrelative:trialapi\\trialapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trial.infrastructure\\security\\jweprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|solutionrelative:trial.infrastructure\\security\\jweprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trial.infrastructure\\security\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|solutionrelative:trial.infrastructure\\security\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trial.infrastructure\\security\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02720EFE-6E9D-428E-BE43-439DA63358D8}|Trial.Infrastructure\\Trial.Infrastructure.csproj|solutionrelative:trial.infrastructure\\security\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\trialapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0F72B5-2F46-4060-8BEC-E581F1DE80EE}|TrialApi\\TrialApi.csproj|solutionrelative:trialapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD98CEB-EBE0-44E7-80CF-9D000F2F4B2A}|Tial.Domain\\Trial.Domain.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\api\\trialapi\\tial.domain\\entities\\syscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD98CEB-EBE0-44E7-80CF-9D000F2F4B2A}|Tial.Domain\\Trial.Domain.csproj|solutionrelative:tial.domain\\entities\\syscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1375,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Trial.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Trial.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:53:51.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JweValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\Middlewares\\JweValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "TrialApi\\Middlewares\\JweValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\Middlewares\\JweValidationMiddleware.cs",
+              "RelativeToolTip": "TrialApi\\Middlewares\\JweValidationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:43:12.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\Middlewares\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "TrialApi\\Middlewares\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\Middlewares\\JwtMiddleware.cs",
+              "RelativeToolTip": "TrialApi\\Middlewares\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:42:58.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrialApi",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\TrialApi.csproj",
+              "RelativeDocumentMoniker": "TrialApi\\TrialApi.csproj",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\TrialApi.csproj",
+              "RelativeToolTip": "TrialApi\\TrialApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T07:42:08.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JweProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Security\\JweProcessor.cs",
+              "RelativeDocumentMoniker": "Trial.Infrastructure\\Security\\JweProcessor.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Security\\JweProcessor.cs",
+              "RelativeToolTip": "Trial.Infrastructure\\Security\\JweProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:41:52.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EncryptionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Security\\EncryptionHelper.cs",
+              "RelativeDocumentMoniker": "Trial.Infrastructure\\Security\\EncryptionHelper.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Security\\EncryptionHelper.cs",
+              "RelativeToolTip": "Trial.Infrastructure\\Security\\EncryptionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:41:41.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Security\\JwtGenerator.cs",
+              "RelativeDocumentMoniker": "Trial.Infrastructure\\Security\\JwtGenerator.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Infrastructure\\Security\\JwtGenerator.cs",
+              "RelativeToolTip": "Trial.Infrastructure\\Security\\JwtGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:41:23.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TrialApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\TrialApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TrialApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:30:45.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SysContext.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Tial.Domain\\Entities\\SysContext.cs",
+              "RelativeDocumentMoniker": "Tial.Domain\\Entities\\SysContext.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Tial.Domain\\Entities\\SysContext.cs",
+              "RelativeToolTip": "Tial.Domain\\Entities\\SysContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:26:58.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
