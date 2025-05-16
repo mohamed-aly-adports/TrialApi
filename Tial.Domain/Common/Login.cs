@@ -1,4 +1,4 @@
-﻿namespace TrialApi.Model
+﻿namespace Trial.Domain.Common
 {
     public class Login
     {

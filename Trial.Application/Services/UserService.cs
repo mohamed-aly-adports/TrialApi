@@ -1,21 +1,27 @@
 ﻿using AutoMapper;
 using Trial.Application.DTO;
 using Trial.Application.Repository;
-using Trial.Domain.Entities;
 
-namespace Trial.Application.Services
+namespace Trial.Application.Interfaces
 {
-    public class UserService 
+    public class UserService : IUser
     {
+        private IUniteOfWork _unit;
         private readonly IUserRepository _userRepo;
-        private readonly SysContext dbContext = new();
         private IMapper _mapper;
 
-        public UserService(IUserRepository userRepo , IMapper mapper)
+        public UserService(IUniteOfWork unit,IUserRepository userRepo , IMapper mapper)
         {
+            _unit = unit;
             _userRepo = userRepo;
             _mapper = mapper;
         }
+
+        public async Task<UserDTO> GetByUserNameAsync(string userName)
+        {
+            var result = await _userRepo.GetByAsync(c=>c.UserName == userName);
+            return _mapper.Map<UserDTO>(result);
+        } 
 
         public  async Task<UserDTO> GetByIdAsync(Guid id)
         {

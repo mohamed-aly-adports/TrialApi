@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/14.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
@@ -1577,6 +1593,20 @@
           }
         }
       },
+      "Trial.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "14.0.0",
+          "Trial.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Trial.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Trial.Application.dll": {}
+        }
+      },
       "Trial.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1594,6 +1624,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/14.0.0": {
+      "sha512": "OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
+      "type": "package",
+      "path": "automapper/14.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.14.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net8.0/AutoMapper.dll",
+        "lib/net8.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.38.0": {
       "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
       "type": "package",
@@ -4495,6 +4540,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Trial.Application/1.0.0": {
+      "type": "project",
+      "path": "../Trial.Application/Trial.Application.csproj",
+      "msbuildProject": "../Trial.Application/Trial.Application.csproj"
+    },
     "Trial.Domain/1.0.0": {
       "type": "project",
       "path": "../Tial.Domain/Trial.Domain.csproj",
@@ -4506,6 +4556,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.16",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.21.0",
       "Swashbuckle.AspNetCore >= 6.6.2",
+      "Trial.Application >= 1.0.0",
       "Trial.Domain >= 1.0.0"
     ]
   },
@@ -4544,6 +4595,9 @@
           "projectReferences": {
             "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Tial.Domain\\Trial.Domain.csproj": {
               "projectPath": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Tial.Domain\\Trial.Domain.csproj"
+            },
+            "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Application\\Trial.Application.csproj": {
+              "projectPath": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\API\\TrialApi\\Trial.Application\\Trial.Application.csproj"
             }
           }
         }

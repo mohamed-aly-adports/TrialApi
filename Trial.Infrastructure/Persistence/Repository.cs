@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using Trial.Application.Repository;
 using Trial.Domain.Entities;
 
@@ -15,6 +16,11 @@ namespace Trial.Infrastructure.Persistence
             _dbSet = _context.Set<T>();
         }
 
+        public async Task<T> GetByAsync(Expression<Func<T, bool>> query)
+        {
+            return (await _dbSet.FirstOrDefaultAsync(query))!;
+        }
+
         public async Task<T> GetByIdAsync(Guid id)
         {
             return await _dbSet.FindAsync(id);
@@ -25,26 +31,30 @@ namespace Trial.Infrastructure.Persistence
             return await _dbSet.ToListAsync();
         }
 
-        public async Task AddAsync(T entity)
+        public async Task<bool> AddAsync(T entity)
         {
             await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
+            var result = await _context.SaveChangesAsync();
+            return result > 0;
         }
 
-        public async Task UpdateAsync(T entity)
+        public async Task<T> UpdateAsync(T entity)
         {
             _dbSet.Update(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
             var entity = await GetByIdAsync(id);
+            var result = 0;
             if (entity != null)
             {
                 _dbSet.Remove(entity);
-                await _context.SaveChangesAsync();
+                result = await _context.SaveChangesAsync();
             }
+            return (result > 0);
         }
     }
 }

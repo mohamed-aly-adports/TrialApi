@@ -1,5 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TrialApi.Model;
+using Trial.Application.Interfaces;
+using Azure.Core.Pipeline;
+using Trial.Domain.Common.Enums;
+using Trial.Application.DTO;
+using Trial.Domain.Common;
 
 namespace TrialApi.Controllers
 {
@@ -7,15 +12,21 @@ namespace TrialApi.Controllers
     [Route("api/[controller]")]
     public class AuthController : Controller
     {
+        private readonly IUser _user;
+        public AuthController(IUser user)
+        {
+            _user = user;
+        }
+
         List<Login> users = new() {
              new Login {UserName = "a" , Password = "1234"},
              new Login {UserName ="b" ,Password = "1235"}
         };
 
-        [HttpPost(Name = "login")]
-        public async Task<IActionResult> In([FromBody]Login user)
+        [HttpPost(Name = nameof(Basic.Login))]
+        public async Task<IActionResult> In([FromBody]Login? user)
         {
-            var test = await TestUser(user);
+            var result = await _user.Login(user);
 
             if (test.isExist)
             {
@@ -26,16 +37,6 @@ namespace TrialApi.Controllers
             {
                 return NotFound();
             }
-        }
-
-        private async Task<(bool isExist ,Login? user)> TestUser(Login user)
-        {
-            if(!string.IsNullOrEmpty(user?.UserName) || !string.IsNullOrEmpty(user?.Password))
-            {
-                var result = users.FirstOrDefault(c => c.UserName == user.UserName && c.Password == user.Password);
-                    return (result is Login ? true : false, result);
-            }
-            return (false, null);
-        }
+        } 
     }
 }

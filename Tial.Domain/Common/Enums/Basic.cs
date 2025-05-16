@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trial.Infrastructure.Security
+namespace Trial.Domain.Common.Enums
 {
-    internal class JweProcessor
+    public enum Basic
     {
+        Login,
     }
 }
