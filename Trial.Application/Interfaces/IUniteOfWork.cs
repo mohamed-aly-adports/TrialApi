@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
+using Trial.Application.Repository;
 
 namespace Trial.Application.Interfaces
 {
     public interface IUniteOfWork :IDisposable
     {
+        IUserRepository Users { get; }  
         void ChangeDatabase(string database); 
         Task<int> SaveChanges();
         int ExecuteSqlCommand(string sql, params object[] parameters); // تنفيذ أمر SQL خام وإرجاع عدد الكيانات المتأثرة

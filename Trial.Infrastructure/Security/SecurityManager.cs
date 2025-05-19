@@ -1,27 +1,24 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using Jose;
 using Microsoft.IdentityModel.Tokens;
 using Trial.Application.Interfaces;
 using Trial.Application.Options;
-using BCrypt.Net
+using System.Security.Claims;
+using System.Text;
+using Jose;
+using Trial.Application.DTO;
+using Trial.Domain.Common;
 
 namespace Trial.Infrastructure.Security
 {
     public class SecurityManager : ISecurityManager
     {
+        private readonly IUser _user;
         private readonly JwtSetting _token;
 
-        public bool VerifyPassword(string inputPassword, string hashedPassword)
-        {
-            //return Verify(inputPassword, hashedPassword);
-            return true;
-        }
-
-        public SecurityManager(JwtSetting token)
+        public SecurityManager(JwtSetting token, IUser user)
         {
             _token = token;
+            _user = user;
         }
 
         public string GenerateToken(Claim[] claims)
@@ -40,18 +37,12 @@ namespace Trial.Infrastructure.Security
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        /// <summary>
-        /// يقوم بفك تشفير JWE باستخدام مفتاح التشفير المحدد.
-        /// </summary>
-        /// <param name="jweToken">الرمز المشفر</param>
-        /// <param name="decryptionKey">مفتاح فك التشفير</param>
-        /// <returns>النص المفكك تشفيره</returns>
         public string Decrypt(string jweToken, string decryptionKey)
         {
             try
             {
                 // تحويل المفتاح لنمط بايت (يمكن تغيير طريقة التحويل حسب نوع المفتاح)
-                var keyBytes = System.Text.Encoding.UTF8.GetBytes(decryptionKey);
+                var keyBytes = Encoding.UTF8.GetBytes(decryptionKey);
 
                 // استخدم الخوارزمية المناسبة: يتم هنا استخدام A256GCMKW كمثال
                 string payload = JWT.Decode(jweToken, keyBytes, JweAlgorithm.A256GCMKW, JweEncryption.A256GCM);
@@ -63,12 +54,6 @@ namespace Trial.Infrastructure.Security
             }
         }
 
-        /// <summary>
-        /// يقوم بتشفير نص إلى JWE باستخدام مفتاح التشفير المحدد.
-        /// </summary>
-        /// <param name="payload">النص الذي سيتم تشفيره</param>
-        /// <param name="encryptionKey">مفتاح التشفير</param>
-        /// <returns>رمز JWE مشفر</returns>
         public string Encrypt(string payload, string encryptionKey)
         {
             try
@@ -83,6 +68,38 @@ namespace Trial.Infrastructure.Security
             {
                 throw new Exception("Error encrypting payload to JWE", ex);
             }
+        }
+
+        public string Hash(string inputPassword)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(inputPassword, workFactor: 12);
+        }
+
+        public bool VerifyPassword(string inputPassword, string hashPassword)
+        {
+            return BCrypt.Net.BCrypt.Verify(inputPassword, hashPassword);
+        }
+
+        public async Task<string> HandleJwt(Login model)
+        {
+            var user = await _user.GetByUserNameAsync(model.UserName);
+
+            if (user is UserDTO)
+            {
+                if (!VerifyPassword(user.Password, model.Password))
+                    return null;
+
+                var claims = new Claim[] {
+                                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                                    new Claim(ClaimTypes.Name, user.UserName),
+                                    new Claim(ClaimTypes.Email, user.UserName),
+                                   //new Claim("role", user.Role), // يمكن إضافة صلاحيات المستخدم إن وجدت
+                                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()) // لتجنب إعادة استخدام التوكنات
+                                     };
+
+                return GenerateToken(claims);
+            }
+            return "";
         }
     }
 }
